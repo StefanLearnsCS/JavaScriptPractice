@@ -3,6 +3,20 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
     "5", "6", "7", "8", "9","~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",
     ".","?","/"];
 
+let passOne = document.getElementById('passOne-el')
+let passTwo = document.getElementById('passTwo-el')
 
+function randomPassword() {
+    let password = ""
+    for (let i = 0; i < 16; i++) {
+        let randomIndex = Math.floor(Math.random() * characters.length)
+        password += characters[randomIndex]
+    }
+    return password
+}
 
+function setPassword() {
+    passOne.textContent = randomPassword()
+    passTwo.textContent = randomPassword()
+}
 

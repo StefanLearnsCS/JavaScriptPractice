@@ -1,3 +1,49 @@
 body {
     margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flexbox;
+    text-align: left;
+    padding: 48px;
+    max-width: fit-content;
+    background-color: rgb(57, 57, 98);
+    margin-inline: auto;
+    margin-top: 140px;
+    border: solid black 2px;
+    border-radius: 12px;
+}
+
+.text {
+    margin: 0;
+}
+
+.btn-1{
+    background-color: rgb(115, 231, 115);
+    color: rgb(92, 92, 92);
+    font-size: 18px;
+    font-weight: 600;
+    border: solid black 2px;
+    border-radius: 6px;
+    padding: 7px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.password-container {
+    display: flex;
+}
+
+.passwords {
+    margin: auto;
+    background-color: rgb(201, 201, 201);
+    padding: 8px;
+    border: solid black 2px;
+    border-radius: 6px;
+    color: green;
+    width: 140px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
 }

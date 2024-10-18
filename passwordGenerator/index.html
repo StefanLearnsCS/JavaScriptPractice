@@ -3,7 +3,22 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1></h1>
+        <div class="container">
+            <h2 class="text" style="color: white;">Generate a</h2>
+            <h2 class="text" style="color: rgb(115, 231, 115);">Random Password</h2>
+            <h4 class="text" style="color: gray;"> Never use an insecure password again.</h4>
+            <button onclick="setPassword()" class="btn-1"> Generate Passwords </button>
+            <hr>
+            <div class="password-container">
+                <div id="passOne-el" class="passwords">
+                    Password 1
+                </div>
+                <div id="passTwo-el" class="passwords">
+                    Password 2
+                </div>
+            </div>
+        </div>
+        
         <script src="index.js"></script>
     </body>
 </html>
