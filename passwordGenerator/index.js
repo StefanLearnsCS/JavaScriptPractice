@@ -20,3 +20,8 @@ function setPassword() {
     passTwo.textContent = randomPassword()
 }
 
+function copyText() {
+    textToCopy = passOne.textContent
+    navigator.clipboard.writeText(textToCopy)
+}
+
