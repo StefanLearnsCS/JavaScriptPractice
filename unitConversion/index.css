@@ -17,6 +17,27 @@ body {
     border: solid black 1px;
 }
 
+.bottom-container {
+    background-color: rgb(231, 226, 226);
+    padding: 1.5rem;
+    display: flex; /* Corrected from flexbox to flex */
+    align-items: center; /* Ensures vertical centering if needed */
+    flex-direction: column;
+    border: solid black 1px;
+    border-top: none;
+}
+
+.card {
+    background-color: white;
+    width: 90%;
+    display: flex; /* Corrected from flexbox to flex */
+    align-items: center; /* Ensures vertical centering if needed */
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
 input {
     font-size: 3rem;
     text-align: center;
@@ -34,4 +55,14 @@ button {
     font-size: 1rem;
     border: none;
     border-radius: 6px;
+    background-color: white;
+    color: rgb(133, 34, 245);
+    cursor: pointer; /* This makes the button look clickable */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+button:hover {
+    background-color: rgb(156, 156, 156); /* Change the background color on hover */
+    color: white; /* Change text color on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
 }
