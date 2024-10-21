@@ -1,3 +1,37 @@
 body {
     margin: 0;
+    display: flex; /* Corrected from flexbox to flex */
+    align-items: center; /* Ensures vertical centering if needed */
+    flex-direction: column; /* Aligns items vertically */
+    font-family: sans-serif;
+}
+
+.top-container {
+    display: flex; /* Corrected from flexbox to flex */
+    align-items: center; /* Ensures vertical centering if needed */
+    flex-direction: column; /* Aligns items vertically */
+    background-color: rgb(133, 34, 245);
+    height: 200px;
+    padding: 24px;
+    color: white;
+    border: solid black 1px;
+}
+
+input {
+    font-size: 3rem;
+    text-align: center;
+    width: 20%;
+    padding: 4px;
+    background-color: rgb(133, 34, 245);
+    border: solid 2px white;
+    border-radius: 8px;
+    color: white;
+}
+
+button {
+    margin-top: 18px;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
 }
